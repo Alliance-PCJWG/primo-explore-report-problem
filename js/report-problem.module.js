@@ -16,7 +16,7 @@ angular
       function ($scope, $location, reportProblemOptions) {
         $scope.message = reportProblemOptions.message
         $scope.button = reportProblemOptions.button
-        $scope.link = reportProblemOptions.base + $location.search().docid
+        $scope.link = reportProblemOptions.base + 'docid=' + $location.search().docid + '&context=' + $location.search().context + '&vid=' + $location.search().vid + '&search_scope=' + $location.search().search_scope + '&tab=' + $location.search().tab + '&lang=' + $location.search().lang;
         $scope.show = $location.path() === '/fulldisplay'
       }]
   })
