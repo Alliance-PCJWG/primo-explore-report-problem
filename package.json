@@ -2,7 +2,7 @@
   "name": "@orbis-cascade/primo-explore-report-problem",
   "version": "3.0.0",
   "description": "adds a \"report a problem\" banner to the detail view of an item in primo-explore.",
-  "main": "dist/module.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alliance-pcsg/primo-explore-report-problem.git"
@@ -25,27 +25,4 @@
     "url": "https://github.com/alliance-pcsg/primo-explore-report-problem/issues"
   },
   "homepage": "https://github.com/alliance-pcsg/primo-explore-report-problem#readme",
-  "devDependencies": {
-    "angular": "^1.6.6",
-    "angular-mocks": "^1.6.6",
-    "babel-core": "^6.26.3",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "eslint": "^5.2.0",
-    "eslint-config-google": "^0.9.1",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^7.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-eslint": "^4.0.0",
-    "hoek": "^4.2.1",
-    "jasmine-core": "^2.8.0",
-    "karma": "^2.0.5",
-    "karma-jasmine": "^1.1.0",
-    "karma-phantomjs-launcher": "^1.0.4",
-    "karma-spec-reporter": "0.0.31"
-  },
-  "scripts": {
-    "start": "./bin/run",
-    "test": "karma start --single-run"
-  }
 }
