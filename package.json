@@ -1,6 +1,6 @@
 {
   "name": "@orbis-cascade/primo-explore-report-problem",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "adds a \"report a problem\" banner to the detail view of an item in primo-explore.",
   "main": "dist/module.js",
   "repository": {
@@ -25,6 +25,5 @@
     "url": "https://github.com/alliance-pcsg/primo-explore-report-problem/issues"
   },
   "homepage": "https://github.com/alliance-pcsg/primo-explore-report-problem#readme",
-  "scripts": {
-  }
+  "scripts": {}
 }
